@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5E00FC071BD5F276001316E2 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00FC061BD5F276001316E2 /* ConversationListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		5E1CE9311BDA2699003FA036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CE9301BDA2699003FA036 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		5E1CE9351BDA289D003FA036 /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CE9341BDA289D003FA036 /* service.storyboard */; settings = {ASSET_TAGS = (); }; };
+		5E1CE9391BDA2C74003FA036 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CE9381BDA2C74003FA036 /* about.storyboard */; settings = {ASSET_TAGS = (); }; };
 		5E2B55D31BD4ECA700FF5BEE /* ConvsersationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B55D21BD4ECA700FF5BEE /* ConvsersationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		5E680C7D1BD8C51700835E18 /* conversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E680C7B1BD8C51700835E18 /* conversation.storyboard */; settings = {ASSET_TAGS = (); }; };
 		5E680C7F1BD8C53E00835E18 /* contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E680C7E1BD8C53E00835E18 /* contact.storyboard */; settings = {ASSET_TAGS = (); }; };
-		5E680C821BD8C55400835E18 /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E680C801BD8C55400835E18 /* service.storyboard */; settings = {ASSET_TAGS = (); }; };
-		5E680C841BD8C56900835E18 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E680C831BD8C56900835E18 /* about.storyboard */; settings = {ASSET_TAGS = (); }; };
 		5E75E260E302906BBFDDB270 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0B5F913B9831C21A9F1A10 /* libPods.a */; };
 		5EB3EBF01BD49B07006A55AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3EBEF1BD49B07006A55AA /* AppDelegate.swift */; };
 		5EB3EBF21BD49B07006A55AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3EBF11BD49B07006A55AA /* ViewController.swift */; };
-		5EB3EBF51BD49B07006A55AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB3EBF31BD49B07006A55AA /* Main.storyboard */; };
 		5EB3EBF71BD49B07006A55AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB3EBF61BD49B07006A55AA /* Assets.xcassets */; };
 		5EB3EBFA1BD49B07006A55AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB3EBF81BD49B07006A55AA /* LaunchScreen.storyboard */; };
 		5EB3EC021BD49B19006A55AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5EB3EC011BD49B19006A55AA /* Podfile */; settings = {ASSET_TAGS = (); }; };
@@ -26,16 +26,16 @@
 		0FA0407436693BAFA041020E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5D0B5F913B9831C21A9F1A10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E00FC061BD5F276001316E2 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		5E1CE9301BDA2699003FA036 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5E1CE9341BDA289D003FA036 /* service.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = service.storyboard; sourceTree = "<group>"; };
+		5E1CE9381BDA2C74003FA036 /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
 		5E2B55CF1BD49B9C00FF5BEE /* CanXin1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanXin1-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E2B55D21BD4ECA700FF5BEE /* ConvsersationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvsersationViewController.swift; sourceTree = "<group>"; };
 		5E680C7C1BD8C51700835E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/conversation.storyboard; sourceTree = "<group>"; };
 		5E680C7E1BD8C53E00835E18 /* contact.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = contact.storyboard; sourceTree = "<group>"; };
-		5E680C811BD8C55400835E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/service.storyboard; sourceTree = "<group>"; };
-		5E680C831BD8C56900835E18 /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
 		5EB3EBEC1BD49B07006A55AA /* CanXin1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanXin1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB3EBEF1BD49B07006A55AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB3EBF11BD49B07006A55AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EB3EBF41BD49B07006A55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB3EBF61BD49B07006A55AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB3EBF91BD49B07006A55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EB3EBFB1BD49B07006A55AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,17 +79,17 @@
 			children = (
 				5EB3EBEF1BD49B07006A55AA /* AppDelegate.swift */,
 				5EB3EBF11BD49B07006A55AA /* ViewController.swift */,
-				5EB3EBF31BD49B07006A55AA /* Main.storyboard */,
-				5E680C831BD8C56900835E18 /* about.storyboard */,
-				5E680C801BD8C55400835E18 /* service.storyboard */,
 				5E680C7E1BD8C53E00835E18 /* contact.storyboard */,
 				5E680C7B1BD8C51700835E18 /* conversation.storyboard */,
+				5E1CE9341BDA289D003FA036 /* service.storyboard */,
+				5E1CE9301BDA2699003FA036 /* Main.storyboard */,
+				5E1CE9381BDA2C74003FA036 /* about.storyboard */,
+				5E00FC061BD5F276001316E2 /* ConversationListViewController.swift */,
 				5E2B55D21BD4ECA700FF5BEE /* ConvsersationViewController.swift */,
 				5EB3EBF61BD49B07006A55AA /* Assets.xcassets */,
 				5EB3EBF81BD49B07006A55AA /* LaunchScreen.storyboard */,
 				5EB3EBFB1BD49B07006A55AA /* Info.plist */,
 				5E2B55CF1BD49B9C00FF5BEE /* CanXin1-Bridging-Header.h */,
-				5E00FC061BD5F276001316E2 /* ConversationListViewController.swift */,
 			);
 			path = CanXin1;
 			sourceTree = "<group>";
@@ -173,12 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1CE9311BDA2699003FA036 /* Main.storyboard in Resources */,
 				5EB3EBFA1BD49B07006A55AA /* LaunchScreen.storyboard in Resources */,
+				5E1CE9391BDA2C74003FA036 /* about.storyboard in Resources */,
+				5E1CE9351BDA289D003FA036 /* service.storyboard in Resources */,
 				5EB3EBF71BD49B07006A55AA /* Assets.xcassets in Resources */,
-				5E680C841BD8C56900835E18 /* about.storyboard in Resources */,
 				5EB3EC021BD49B19006A55AA /* Podfile in Resources */,
-				5E680C821BD8C55400835E18 /* service.storyboard in Resources */,
-				5EB3EBF51BD49B07006A55AA /* Main.storyboard in Resources */,
 				5E680C7D1BD8C51700835E18 /* conversation.storyboard in Resources */,
 				5E680C7F1BD8C53E00835E18 /* contact.storyboard in Resources */,
 			);
@@ -255,22 +255,6 @@
 				5E680C7C1BD8C51700835E18 /* Base */,
 			);
 			name = conversation.storyboard;
-			sourceTree = "<group>";
-		};
-		5E680C801BD8C55400835E18 /* service.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E680C811BD8C55400835E18 /* Base */,
-			);
-			name = service.storyboard;
-			sourceTree = "<group>";
-		};
-		5EB3EBF31BD49B07006A55AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EB3EBF41BD49B07006A55AA /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5EB3EBF81BD49B07006A55AA /* LaunchScreen.storyboard */ = {

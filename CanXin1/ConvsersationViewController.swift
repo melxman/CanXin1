@@ -19,7 +19,7 @@ class ConvsersationViewController: RCConversationViewController {
         self.userName = "Jobb"
         
         self.conversationType = RCConversationType.ConversationType_PRIVATE
-        self.title = "与" + self.userName + "对话中"
+        self.title = self.userName 
 
         
         // Do any additional setup after loading the view.

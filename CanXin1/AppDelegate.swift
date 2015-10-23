@@ -9,16 +9,37 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
 
     var window: UIWindow?
 
-
+    func getUserInfoWithUserId(userId: String!, completion: ((RCUserInfo!) -> Void)!) {
+        
+        let userInfo = RCUserInfo()
+        
+        userInfo.userId = userId
+        
+        switch userId {
+        case "m1":
+            userInfo.name = "Jobb"
+            userInfo.portraitUri = "http://img1.touxiang.cn/uploads/20131114/14-065802_226.jpg"
+            case "long2":
+            userInfo.name = "Boss"
+            userInfo.portraitUri = "http://img1.touxiang.cn/uploads/20131114/14-065803_765.jpg"
+        default :
+            print("无此用户")
+        }
+        return completion(userInfo)
+    }
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
         //初始化
         RCIM.sharedRCIM().initWithAppKey("bmdehs6pdulls")
+        
+        //设置用户信息提供者为自己
+        RCIM.sharedRCIM().userInfoDataSource = self
         
         //测试连接
         RCIM.sharedRCIM().connectWithToken("6huIF3B7Go8v6j9wxbLxj+EFHcnwrDWPmUvSnx/uD8YjX6JbI3lICAqCMkEUIIrUmpL/3XZsuaDzTg3PkFcCNQ==", success: { (_) -> Void in
